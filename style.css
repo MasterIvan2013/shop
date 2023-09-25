@@ -12,19 +12,55 @@
 body{
     /* background-image:url("img/vvvvv.avif"); */
   color: white; 
-  background-color: aqua;
+  background-color: #2e2e39;
 }
 a{
     color: white;
 }
+li{
+    list-style-type:none ;
+}
 .header-list{
     display: flex;
     gap: 20px;
-    width:20px ;
 }
 .box{
     padding:0% 5% ;
     color: black;
 }
 .main{
+    display: flex;
+}
+.box img{
+    width: 100px;
+    height: 100px;
+}
+.box{
+    text-align: center;
+    width: 30%;
+    background-color: white;
+    margin: 10%;
+   padding: 30px ;
+}
+button{
+    padding:10px 20px;
+ background-color:black;
+ color: white;
+ transition: .5s;
+}
+button:hover{
+    background-color: aqua;
+    cursor: pointer;
+    transition: .5s;
+}
+.footer{
+
+}
+.footer-list{
+    display: flex;
+    justify-content: center;
+
+}
+.footer-list li{
+    margin: 0 20px;
 }
